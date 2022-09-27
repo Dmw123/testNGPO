@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="商城测试">
+    <test verbose="2" preserve-order="true" name="商城登录和信息测试">
+        <classes>
+            <class name="com.testing.testshop.HomePage">
+                <methods>
+                    <include name="shopLogin"/>
+                    <include name="shopSearch"/>
+                </methods>
+            </class>
+            <class name="com.testing.testshop.UserPage">
+                <methods>
+                    <include name="modifierInfo"/>
+                </methods>
+            </class>
+
+
+        </classes>
+    </test>
+</suite>

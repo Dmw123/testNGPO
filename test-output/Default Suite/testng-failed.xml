@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="testNGPO(failed)">
+    <classes>
+      <class name="com.testing.testshop.HomePage">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="shopSearch"/>
+        </methods>
+      </class> <!-- com.testing.testshop.HomePage -->
+    </classes>
+  </test> <!-- testNGPO(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

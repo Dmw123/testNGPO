@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="XXX项目" parallel="false">
+<!--    <test name="XX模块1">-->
+<!--        <classes>-->
+<!--            <class name="com.testing.testng.Demo"/>-->
+<!--            <class name="com.testing.testng.Demo2"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="XX模块2">
+        <classes>
+<!--            <class name="com.testing.testng.Demo3"/>-->
+<!--            <class name="com.testing.testng.Demo4"/>-->
+                <class name="com.testing.testng.Demo5"/>
+
+        </classes>
+    </test>
+    <parameter name="firstName" value="尼古拉斯"></parameter>
+    <parameter name="lastName" value="赵四"></parameter>
+
+</suite>
